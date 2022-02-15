@@ -19,8 +19,8 @@ describe('ONG', () => {
             name: "APAD2",
             email: "contato@test.com.br",
             whatsapp: "4725682009",
-            city: "Rio do Sul",
-            uf: "SC"
+            city: "Maceio",
+            uf: "AL"
         });
 
         expect(response.body).toHaveProperty('id');
